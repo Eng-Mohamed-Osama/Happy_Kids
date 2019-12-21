@@ -1,0 +1,359 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /*
+    ## Nav Bar
+  */
+  .dropdown-menu-fix {
+    transition: all .2s ease;
+  }
+
+  /*
+    ## Carousel 1
+  */
+  .first-one .carousel-caption {
+    bottom: 15%;
+  }
+
+  .first-one h2 {
+    font-size: 70px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 15px;
+  }
+
+  /*
+    ## Gallery Page
+  */
+  .gallery .main-span .contain {
+    top: 5%;
+  }
+
+  /*
+    ## H2
+  */
+  .child-care h2, .child-care.new-bg h2, .methods h2 {
+    font-size: 60px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /*
+    ## Nav Bar
+  */
+  .bg {
+    padding-top: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+  }
+
+  .dropdown-menu-fix {
+    top: 100px;
+    transition: all .2s ease;
+  }
+
+  .navbar-light .navbar-brand {
+    width: 363px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 0;
+  }
+
+  .dropdown-menu {
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    left: 45px;
+    top: 53px;
+    line-height: 22px;
+    box-shadow: 1px 1px 10px #000000;
+    font-size: 14px;
+  }
+
+  /*
+    ## Carousel 1
+  */
+  .first-one .carousel-caption {
+    bottom: 1%;
+  }
+
+  .first-one img {
+    height: 550px;
+  }
+
+  /*
+    ## Gallery Page
+  */
+  .gallary-page {
+    padding-top: 50px;
+  }
+
+  /*
+    ## H2
+  */
+  .child-care h2, .child-care.new-bg h2, .methods h2 {
+    font-size: 60px;
+  }
+
+  /*
+    ## About Us page
+  */
+  .aboutus img {
+    min-height: 0;
+  }
+
+  .aboutus h2 {
+    padding-top: 30px;
+  }
+
+  .aboutus .btn1 {
+    margin-bottom: 30px;
+  }
+
+  .display-fix {
+    display: table;
+  }
+
+  .sec {
+    display: table-footer-group;
+  }
+
+  .first {
+    display: table-header-group;
+  }
+
+  /*
+    ## Textimonials
+  */
+  .testimonials .buttons p {
+    padding: 50px 0;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /*
+    ## Nav Bar
+  */
+  .bg {
+    padding-top: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+  }
+
+  .dropdown-menu-fix {
+    top: 0px;
+    transition: all .2s ease;
+  }
+
+  .navbar-light .navbar-brand {
+    width: 250px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 0;
+  }
+
+  .dropdown-menu {
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    left: 45px;
+    top: 53px;
+    line-height: 22px;
+    box-shadow: 1px 1px 10px #000000;
+    font-size: 14px;
+  }
+
+  /*
+    ## Carousel 1
+  */
+  .first-one img {
+    height: 550px;
+  }
+
+  .first-one h2 {
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 15px;
+  }
+
+  /*
+    ## Gallery Page
+  */
+  .gallary-page {
+    padding-top: 137px;
+  }
+
+  .gallery .main-span .contain {
+    top: 30%;
+  }
+
+  /*
+    ## H2
+  */
+  .child-care h2, .child-care.new-bg h2, .methods h2 {
+    font-size: 55px;
+  }
+
+  /*
+    ## About Us page
+  */
+  .aboutus h2 {
+    padding-top: 30px;
+  }
+
+  .aboutus img {
+    min-height: 0;
+  }
+
+  .aboutus .btn1 {
+    margin-bottom: 30px;
+  }
+
+  .display-fix {
+    display: table;
+  }
+
+  .sec {
+    display: table-footer-group;
+  }
+
+  .first {
+    display: table-header-group;
+  }
+
+  /*
+    ## Textimonials
+  */
+  .testimonials .buttons p {
+    padding: 50px 0;
+  }
+}
+
+/*
+  ## Nav Bar Drop Down Menu
+  ##Special Case For The Main Carousel (carousel 1)
+*/
+@media (min-width: 767px) and (max-width: 991px) {
+  .bg {
+    padding-top: 10px;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+  }
+
+  .navbar-light .navbar-brand {
+    width: 250px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 0;
+  }
+
+  .dropdown-menu {
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    left: 45px;
+    top: 53px;
+    line-height: 22px;
+    box-shadow: 1px 1px 10px #000000;
+    font-size: 14px;
+  }
+
+  .gallary-page {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .first-one .carousel-caption {
+    bottom: 1%;
+  }
+
+  .first-one img {
+    height: 550px;
+  }
+
+  .first-one h2 {
+    font-size: 69px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+  }
+
+  .carousel-caption hr {
+    width: 112px;
+    height: 2px;
+    background: #fff;
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+  }
+
+  .carousel-caption .buttons .btn1 {
+    margin-bottom: 15px;
+  }
+
+  .first-one span[aria-hidden="true"] i {
+    opacity: 0;
+  }
+
+  .gallary-page {
+    padding-top: 67px;
+  }
+}
